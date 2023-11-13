@@ -1,0 +1,358 @@
+.Img
+{
+    background-color: red;
+    height:500px;
+    width: 100%;
+    background-image:url(images/aero.jpg);
+    background-size: cover;
+    
+}
+.Img h1
+{
+    
+    text-align: center;
+    font-weight: bolder;
+    margin-top:330px;
+}
+.navbar
+{
+   height:90px;
+   background-color: yellow;
+}
+/* .btn1
+{
+    margin-left:600px;
+    margin-top: 50px;
+    border: none;
+    color:black;
+    padding: 0px 8px;
+    border-radius: 3px;
+}
+.btn1:hover{
+    border: 1px solid black;
+    background-color: chocolate;
+    color: black;
+    border-radius:4px;
+} */
+.text1 p
+{
+    text-align:left;
+    color: rgba(4, 34, 76, 0.961);
+}
+.text1 h1
+{
+    font-weight: bolder;
+    font-size:35px;
+
+}
+.text1 h3
+{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:20px;
+   
+}
+.Whyus
+{
+    height: 100px;
+    width: 100%;
+    margin-top:30px;
+    color:rgb(75, 67, 4);
+    text-align: center;
+    padding-top: 20px;
+    line-height: 2px;
+}
+.Whyus h2
+{
+  font-size:38px;
+  font-weight: bolder;
+  color:rgb(109, 20, 30);
+}
+.icons
+{
+    color:green;
+    padding-left: 20px;
+    padding-top:15px;
+}
+.circle
+{
+    height:70px;
+    width:70px;
+    background-color:whitesmoke;
+    margin-left:100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow:2px 2px 2px 2px black;
+}
+.Aero h2
+{
+    text-align: center;
+    padding-top:15px;
+    font-size:20px;
+    font-weight: bolder;
+}
+.Aero p
+{
+    font-size:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align-last: center;
+}
+#img1
+{
+    width:100%;
+    height:250px;
+    background-color:rgb(25, 25, 158);
+    background-color: rgb(39, 39, 138);
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin-top:50px;
+}
+.pawan
+{
+   padding-left:180px;
+   float: left;
+   
+}
+.info1
+{
+    color:whitesmoke;
+    float: right;
+    font-weight:100;
+    float: left;
+    width:800px;
+    margin-top: 80px;
+}
+.info1 h4 
+{
+    font-size:20px;
+    color:chocolate;
+}
+
+/* second image*/
+#img2
+{
+    width:100%;
+    height:250px;
+    background-color:rgb(25, 25, 158);
+    background-color: rgb(39, 39, 138);
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin-top:-50px;
+}
+.akash
+{
+    float: left; 
+    margin-left:100px;
+}
+.info2
+{
+    color:whitesmoke;
+    float: right;
+    font-weight:100;
+    float: left;
+    width:600px;
+    margin-top: 80px;
+}
+
+.info2 h4 
+{
+    font-size:20px;
+    color:chocolate;
+}
+
+/* Image 3*/
+#img3
+{
+    width:100%;
+    height:250px;
+    background-color:rgb(25, 25, 158);
+    background-color: rgb(39, 39, 138);
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin-top:-50px;
+}
+
+.vishnu
+{
+    float: left; 
+    margin-left:100px;
+}
+
+.info3
+{
+    color:whitesmoke;
+    /* float: right; */
+    font-weight:100;
+    float: left; 
+    width:600px;
+    margin-top: 80px;
+    margin-left:40px;
+}
+
+.info3 h4 
+{
+    font-size:20px;
+    color:chocolate;
+}
+
+.para
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkmagenta;
+}
+.head
+{
+    text-align: center;
+    font-weight: bolder;
+    color:black;
+    line-height: 15px;
+    margin-bottom:20px;
+}
+hr
+{
+    border: 2px solid;
+    width:100px;
+    height: 50px;
+    background-color: orange;
+}
+/............./
+.man {
+    height:100px;
+    background-color: rgb(23, 59, 203);
+}
+
+.box {
+    height:100px;
+    width: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.box img {
+    width:100%;
+    /* border: 3px solid black; */
+    
+}
+
+.man p
+{
+    margin-left: 140px;
+    margin-top:-80px;
+    font-weight: bolder;
+    word-spacing:8px;
+    line-height:5px;
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+
+.man b
+{
+    margin-left:145px;
+    line-height:5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.feedback h3
+{
+    margin-top:0px;
+    font-size:17px;
+    font-variant:small-caps ;
+    
+}
+.feedback
+{
+    background-color: whitesmoke;
+}
+
+/* Footer */
+.loc
+{
+    text-align-last: center;
+   margin-bottom:-15px;
+}
+
+.phone 
+{
+    
+}
+.mail 
+{
+  
+    margin-top:15px;
+    margin-bottom:30px;
+}
+.mail a{
+    margin-left:10px;
+    color: black;
+}
+.loc address:hover
+{
+    text-decoration: underline;
+}
+
+.social .bi
+{
+ margin-left:20px;  
+ opacity:0.3; 
+ margin-bottom: 50px;
+}
+
+.bi:hover
+{
+    color: blue;
+    opacity: 1.0;
+}
+
+.copyright
+{
+    text-align: center;
+    opacity:0.5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer-bar1{
+    background-color:rgba(16, 16, 15, 0.992) ;
+     height:340px;   
+     
+   }
+   
+   
+   .company-head{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing: 0.2em;
+     text-transform: uppercase;
+     padding-left: 40px;
+     padding-top: 30px;
+   color:antiquewhite ;
+   }
+   
+   
+    #foot-value2 a{
+     padding-left: 40px;
+     letter-spacing: 0.1em;
+   
+    text-decoration: none;
+   color:darkslategrey ;
+   
+   }
+   #foot-value2  :hover{
+     zoom: 101%;
+     color: lightseagreen;
+   }
+   
+    .footer-bar3{
+       height:340px; 
+       background-color:rgba(16, 16, 15, 0.992) ;                       
+   }

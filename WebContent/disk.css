@@ -1,0 +1,396 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 120vw;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+    position:relative;
+    padding: 10px 70px;
+
+  
+    
+    background-color: #fff;
+  }
+  .navbar-logo {
+    color: #ff3f34;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 20px;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    padding-left: 300px;
+  }
+  .navbar-links li a {
+    
+    display: block;
+    text-decoration: none;
+    color: #444;
+    padding: 5px 25px;
+    font-weight: 700;
+    transition: 0.6s all;
+    text-transform: uppercase;
+  
+
+    
+  }
+ 
+  .navbar-links li.navbar-dropdown {
+    position: relative;
+  }
+  
+  .navbar-links li.navbar-dropdown:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+  .navbar-links li.navbar-dropdown .dropdown {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding: 20px 0;
+    top: 100%;
+    transform: translateY(50px);
+    left: 0;
+    width: 250px;
+    background-color: #fff;
+    /* box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3); */
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 111;
+    transition: 0.4s all;
+    border-radius: 18px;
+    border: solid 1px #dcdbdb88;
+    box-shadow: 1px 2px 5px rgba(246, 246, 246, 0.09); 
+  }
+  .navbar-links li.navbar-dropdown .dropdown a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+  .navbar-dropdown .dropdown a:hover {
+    padding-left: 30px;
+  }
+  .navbar-links li a:hover {
+    color: #ff3f34;
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------------------- */
+.privacy-under{
+  padding-left: 120px;
+}
+.privacy-under1{
+  padding-left: 0px;
+}
+  .disc-page{
+  
+    background-image: url("SVG Background.jpg");
+    background-color: var(--e-global-color-primary );
+    background-position: center;
+    background-size: cover;
+margin-top: -430px;
+    height: 70px;
+    width: 100%;
+ 
+  }
+  #avp{
+    height: 40px;
+    width: 90px;
+  }
+  #discklaimer{
+    text-transform:capitalize;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+        font-weight: 800;
+      padding-left: 200px;
+      padding-top:480px;
+      letter-spacing: 0.1em;
+      color: #000000;
+    
+  
+  }
+  .disc-1{
+
+  
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 100px;;
+
+  }
+  .disk-p{
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+ padding: 20px;
+  }
+  li{
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+ padding: 20px;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------ */
+  #section4 {
+    width: 100%;
+
+background-image: url("SVG\ Background.jpg");
+    max-height: 300px;
+    border-radius: 5px;
+    border: solid 1px rgb(184, 197, 200);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+    margin-top: 110%;
+   
+  }
+  
+  #world {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 6spx;
+    width: 210px;
+    float: left
+  }
+  
+  #receive {
+    flex: content;
+    float: right;
+    margin-top: 30px;
+    margin-right: 600px;
+    letter-spacing: 0.3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  #receive1 {
+    flex: content;
+    font-size: 14px;
+    float: right;
+    margin-top: -12px;
+    margin-right: 240px;
+    position: relative;
+    letter-spacing: 0.1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+  }
+  #btn {
+    height: 38px;
+    position:absolute;
+    margin-left: 810px;
+    margin-top: -84px;
+    width: 10%;
+   color: rgb(0, 0, 0);
+   
+  }
+  
+  #Let {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    color: #000;
+    font-size: 18px;
+  
+  }
+  #icon {
+    display: inline-block;
+    padding: 9.3px 15px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    background: #1c87c9;
+    color: #fff;
+    text-align: center;
+    margin-left: 240px;
+    position: relative;
+    font-size: 88%;
+  
+  }
+  
+  #icon:hover {
+    opacity: 0.6;
+  }
+  input[type=text] {
+    position: relative;
+    width: calc(50% - 57px);
+    height: 36px;
+    margin: 20px 0 0 -5px;
+    padding-left: 10px;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    background: #fff;
+    margin-left: -3px;
+    margin-top: -20px;
+  }
+  
+  
+  input:hover {
+    background-color: #ffffff;
+    color: #4c9ed9;
+    border: 1px solid #111;
+  }    
+ /* ----------------------------------------------------------------------------------------------------------------------------- */
+ .underline-footer{
+
+    border: solid 1px #dcdbdb88;
+    box-shadow: 1px 2px 5px rgba(246, 246, 246, 0.09); 
+    margin-top: 30px;
+    height: 10px;
+    width: 110%;
+    background-color: #200d0d;
+    border-radius: 5px;
+  
+   }
+  #footer{
+    /* background-image: url("D_generic.png");  */
+   /*  */
+margin-top: 30px;
+  
+   
+   }
+   .footer-bar1{
+    background-color:rgba(16, 16, 15, 0.992) ;
+     height:340px;   
+     
+   }
+   .footer-bar2{
+     height: 340px;  
+     background-color:rgba(16, 16, 15, 0.992) ; 
+   
+   }
+   .footer-bar3{
+       height:340px; 
+       background-color:rgba(16, 16, 15, 0.992) ;                       
+   }
+   
+   .company-head{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing: 0.2em;
+     text-transform: uppercase;
+     padding-left: 40px;
+     padding-top: 30px;
+   color:antiquewhite ;
+   
+   }
+   #foot-value2 a{
+     padding-left: 40px;
+     letter-spacing: 0.1em;
+   
+    text-decoration: none;
+   color:darkslategrey ;
+   
+   }
+   #foot-value2  :hover{
+     zoom: 101%;
+     color: lightseagreen;
+   }
+   
+   #f-3{
+     color: #000;
+    
+     letter-spacing: 0.1em;
+     padding-left: 50px;
+   }
+   #f-4{
+     
+   }
+   .footer-bar-social{
+     background-image: url("h2-qsuite-businessman.jpg"); 
+    height:340px;
+     width: 100%;
+     background-position: center;
+   background-size: cover;
+   position:absolute;
+   
+   }
+              /* //////////////////////////////////////////////// */
+     li a {
+     color: #ff002fdf;
+     text-decoration: none;
+   }
+   .me {
+     width: 400px;
+     margin: 90px auto;
+   }
+   .me p,
+   .me h1 {
+     letter-spacing: 3px;
+     text-align: center;
+   }
+   .me p {
+     font-weight: 200;
+   }
+   .me span {
+     font-weight: bold;
+   }
+   .social {
+    
+     top: 20px;
+     position: relative;
+     overflow: hidden;
+   }
+   .social ul {
+     padding: 0px;
+     transform: translate(-270px, 0);
+   }
+   .social ul li {
+     display: block;
+     margin: 5px;
+     background: rgba(0, 0, 0, 0.36);
+     width: 314px;
+     text-align: right;
+     padding: 10px;
+     border-radius: 0 30px 30px 0;
+     transition: all 1s;
+   }
+   .social ul li:hover {
+     transform: translate(110px, 0);
+     background: rgba(255, 255, 255, 0.4);
+   }
+   .social ul li:hover a {
+     color: #000;
+   }
+   .social ul li:hover i {
+     
+     color: #fff;
+     background: rgba(0, 0, 0, 0.36);
+     transform: rotate(360deg);
+     transition: all 2s;
+   }
+   .social ul li i {
+     
+   
+     margin-left: 10px;
+     color:rgba(6, 6, 6, 0.778);
+     background: #fff;
+   padding: 4px;
+     border-radius: 50%;
+     width: 25px;
+     height: 25px;
+     font-size: 18px;
+     background: #ffffff;
+     transform: rotate(0deg);
+     
+   }
+   
+   #lets{
+     text-transform: uppercase;
+     letter-spacing: 0.2em;
+     font-size: 103%;
+     padding-left: 50px;
+     color: rgb(255, 255, 255);
+   
+   }
+   
+   
+   
+   .footer11{
+     display: block;
+   }
+   #com img{
+     display: block;
+   }
